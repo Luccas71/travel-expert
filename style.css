@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-image: url(https://i.ibb.co/kHty8B0/background-image-travel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    text-align: center;
+
+    font-family: 'Cinzel', serif;
+    color: #151718;
+}
+
+h1 {
+    font-size: 64px;
+    margin-top: 200px;
+    line-height: 86px;
+}
+
+h1 span {
+    color: #DB2777;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: #2C2E2F;
+    opacity: .9;
+    margin-bottom: 72px;
+
+}
+
+a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: #151718;
+}
+
+.pink-btn {
+    color: white;
+    background-color: #DB2777;
+    padding: 16px 32px;
+    border-radius: 80px;
+}
+
+.pink-btn:hover {
+    opacity: .7;
+}
